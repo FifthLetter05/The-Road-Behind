@@ -1,0 +1,29 @@
+# Material file for slowking.obj
+
+newmtl 48_0_113_171
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.588 0.588 0.588
+	Ks 0.0 0.0 0.0
+	Ka 0.588 0.588 0.588
+	map_Kd PM_Yadoking29099.png
+
+newmtl 48_0_113_202
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.588 0.588 0.588
+	Ks 0.0 0.0 0.0
+	Ka 0.588 0.588 0.588
+	map_Kd PM_Yadoking29130.png
+
+newmtl 48_0_113_172
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.588 0.588 0.588
+	Ks 0.0 0.0 0.0
+	Ka 0.588 0.588 0.588
+	map_Kd PM_Yadoking29100.png
+
