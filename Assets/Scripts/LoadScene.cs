@@ -5,10 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class LoadScene : MonoBehaviour {
 
-    public void StartButton() {
-
+    public void StartButton()
+    {
+        Indestructable.instance.prevScene = SceneManager.GetActiveScene().buildIndex;
+        
         //Loads scene
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(6);
          
     }
 
@@ -55,7 +57,7 @@ public class LoadScene : MonoBehaviour {
 
     public void EndButton()
     {
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(5);
 
     }
 

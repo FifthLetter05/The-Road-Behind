@@ -8,8 +8,10 @@ public class ChangeSceneOnClick : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (Input.anyKey) {
-            SceneManager.LoadScene(3);
+        if (Input.anyKeyDown)
+        {
+	        Indestructable.instance.prevScene = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(6);
             Debug.Log("Key!");
         }
 	}

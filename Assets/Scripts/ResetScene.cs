@@ -26,14 +26,14 @@ public class ResetScene : MonoBehaviour
         
         if (col.gameObject.name == "police")
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             Debug.Log("Test3");
         }
         
 
         if (col.gameObject.name == "ChangeLevelTrigger")
         {
-            SceneManager.LoadScene(6);
+            SceneManager.LoadScene("end_scene");
             Debug.Log("Test4");
         }
 
