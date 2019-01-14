@@ -14,6 +14,11 @@ public class VideoSceneManager : MonoBehaviour
     void Start()
     {
         prevScene = Indestructable.instance.prevScene;
+        
+#if UNITY_WEBGL
+        OnEndReached(null);
+#endif
+        
         VideoPlayer videoPlayer;
 
         var videoGO = GameObject.Find("Video " + (prevScene == 0 ? "1" : "2"));

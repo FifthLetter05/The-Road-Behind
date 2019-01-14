@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DiscordController : MonoBehaviour
 {
-#if (UNITY_STANDOLONE)
+#if (UNITY_STANDALONE)
     public DiscordRpc.RichPresence presence = new DiscordRpc.RichPresence();
     public string applicationId;
     public string optionalSteamId;

@@ -64,7 +64,7 @@ public class Indestructable : MonoBehaviour
 
     private void Update()
     {
-        #if (UNITY_STANDOLONE)
+        #if (UNITY_STANDALONE)
         if (Input.GetKey(KeyCode.Escape) && !quit)
         {
             //time it takes to quit
